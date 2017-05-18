@@ -78,3 +78,20 @@ numbers.reduce((accumulator, current) => {
 // MVC
 // React is the V in MVC
 // React is all about UI i.e) View
+
+//Building UI's with pure functions / Function composition in React
+
+f(d) = v
+
+//Pure functions
+//Pure functions always reurn the same result given the same arguments.
+//Pure functions execution doesn't depend on the state of the application .
+//Pure functions don't modify the variables outside of their scope.
+
+var num = 0;
+function badFunction(){
+  //num = 25;
+  return 25;
+};
+
+num = badFunction();
